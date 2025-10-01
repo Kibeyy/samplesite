@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: #111010;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+
+}
+.navbar-title{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    font-size: 25px;
+}
+.navbar-nav-item{
+    margin-right: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar-button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar-button:hover {
+    background-color: white;
+}
+.contactus{
+    font-family: sans-serif;
+    color: white;
+
+}
+.contactus:hover{
+    font-family: sans-serif;
+    color: black;
+
+}
+.doing{
+    color: white;
+}
+.pageone-title{
+    color: white;
+}
+.pageone-description{
+    color: white;
+}
+.pageone{
+    height: 80vh;
+    display: flex;
+    padding: 80px 50px;
+}
+.doing{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.pageone-title{
+    font-family: sans-serif;
+    font-size: 80px;
+    letter-spacing: .2rem;
+    color: transparent;
+   -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+.pageone-description{
+    font-family: sans-serif;
+    width: 600px;
+    line-height: 1.6;
+}
+.icon{
+    width: 250px;
+}
+.pagetwo-title{
+    color: white;
+}
+.pagetwo-description{
+    color: white;
+}
+.pagetwo{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+.pagetwo-title{
+    font-family: sans-serif;
+    font-size: 80px;
+    letter-spacing: .2rem;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+.pagetwo-description{
+    font-family: sans-serif;
+    width: 600px;
+    line-height: 1.6;
+}
+.icon2{
+    width: 250px;
+}
+
+/*from here*/
+.pagethree{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+.pagethree-title{
+    color: white;
+    font-family: sans-serif;
+    font-size: 80px;
+    letter-spacing: .2rem;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+.pagethree-description{
+    color: white;
+    font-family: sans-serif;
+    width: 600px;
+    line-height: 1.6;
+}
+.icon2{
+    width: 250px;
+}
+
+
+
+/* Footer Styles */
+
+.footer {
+    background-color: #111010; /* Slightly lighter black than your body background */
+    color: #ffffff;
+    padding: 30px 50px; /* Vertical and horizontal padding */
+    font-family: sans-serif;
+    border-top: 1px solid #333; /* A subtle separator line */
+    margin-top: 50px; /* Space above the footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Puts copyright on the left, social links on the right */
+    align-items: center; /* Vertically centers items */
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the content */
+}
+
+.footer-copyright {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #cccccc;
+}
+
+.footer-madeby {
+    font-size: 12px;
+    color: #666666; /* Subtler text */
+}
+
+.footer-social .social-link {
+    color: #ffffff;
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 14px;
+    margin-left: 25px;
+    /* Add a smooth transition for the hover effect */
+    transition: color 0.3s ease;
+}
+
+.footer-social .social-link:hover {
+    color: #007bff; /* Example: a bright color on hover */
+}
